@@ -1,0 +1,39 @@
+<idea-plugin>
+    <id>com.nowheremat.gruvbox.material.island</id>
+
+    <name>Gruvbox Material Island Theme</name>
+
+    <vendor url="https://github.com/nowheremat/gruvbox-material-island-theme">Nowheremat</vendor>
+
+    <description><![CDATA[
+      A high-contrast Gruvbox Material theme based on the Islands UI.
+      Includes Dark variants optimized for modern IntelliJ UIs.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <depends optional="true" config-file="plugin-classic-ui.xml">com.intellij.classic.ui</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+
+        <themeProvider
+                id="com.github.nowheremat.gruvbox.dark.islands"
+                path="themes/gruvbox-material-dark/gruvbox-material-dark.json"
+                targetUi="islands"
+        />
+
+        <themeProvider
+                id="com.github.nowheremat.gruvbox.light.new"
+                path="themes/gruvbox-material-light/gruvbox-material-light.json"
+                targetUi="new"
+        />
+
+<!--        <themeProvider-->
+<!--                id="com.github.nowheremat.gruvbox.dark.new"-->
+<!--                path="themes/gruvbox-material-dark/gruvbox-material-dark.json"-->
+<!--                targetUi="new"-->
+<!--        />-->
+
+    </extensions>
+
+</idea-plugin>
