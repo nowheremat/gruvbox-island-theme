@@ -2,7 +2,7 @@
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider
                 id="com.nowheremat.gruvbox.dark.classic"
-                path="themes/gruvbox-material-dark/gruvbox-material-dark-classic-ui.json"
+                path="themes/gruvbox-dark/gruvbox-dark-classic-ui.json"
                 targetUi="classic"
         />
     </extensions>

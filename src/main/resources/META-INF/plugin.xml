@@ -1,12 +1,12 @@
 <idea-plugin>
-    <id>com.nowheremat.gruvbox.material.island</id>
+    <id>com.nowheremat.gruvbox.island</id>
 
-    <name>Gruvbox Material Island Theme</name>
+    <name>Gruvbox Island Theme</name>
 
-    <vendor url="https://github.com/nowheremat/gruvbox-material-island-theme">Nowheremat</vendor>
+    <vendor url="https://github.com/nowheremat/gruvbox-island-theme">Nowheremat</vendor>
 
     <description><![CDATA[
-      A high-contrast Gruvbox Material theme based on the Islands UI.
+      A high-contrast Gruvbox theme based on the Islands UI.
       Includes Dark variants optimized for modern IntelliJ UIs.
     ]]></description>
 
@@ -18,21 +18,15 @@
 
         <themeProvider
                 id="com.github.nowheremat.gruvbox.dark.islands"
-                path="themes/gruvbox-material-dark/gruvbox-material-dark.json"
+                path="themes/gruvbox-dark/gruvbox-dark.json"
                 targetUi="islands"
         />
 
         <themeProvider
                 id="com.github.nowheremat.gruvbox.light.new"
-                path="themes/gruvbox-material-light/gruvbox-material-light.json"
+                path="themes/gruvbox-light/gruvbox-light.json"
                 targetUi="new"
         />
-
-<!--        <themeProvider-->
-<!--                id="com.github.nowheremat.gruvbox.dark.new"-->
-<!--                path="themes/gruvbox-material-dark/gruvbox-material-dark.json"-->
-<!--                targetUi="new"-->
-<!--        />-->
 
     </extensions>
 
