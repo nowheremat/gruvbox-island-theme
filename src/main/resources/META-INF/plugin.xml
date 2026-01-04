@@ -12,7 +12,7 @@
 
     <depends>com.intellij.modules.platform</depends>
 
-    <depends optional="true" config-file="plugin-classic-ui.xml">com.intellij.classic.ui</depends>
+<!--    <depends optional="true" config-file="plugin-classic-ui.xml">com.intellij.classic.ui</depends>-->
 
     <extensions defaultExtensionNs="com.intellij">
 
