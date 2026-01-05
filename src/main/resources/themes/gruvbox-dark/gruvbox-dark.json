@@ -1,7 +1,7 @@
 {
   "author": "Matias Cordon",
   "dark": true,
-  "name": "Gruvbox Dark",
+  "name": "Gruvbox Dark Island",
   "editorScheme": "themes/gruvbox-dark/gruvbox-dark.xml",
   "icons": {
     "/com/intellij/ide/ui/laf/icons/darcula/checkBox.svg": "/themes/gruvbox-dark/icons/checkBox.svg",
