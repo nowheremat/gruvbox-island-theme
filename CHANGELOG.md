@@ -5,6 +5,10 @@
 
 ## [Unreleased]
 
+### Added - 2026-27-04
+
+- Idea version update
+
 ### Added
 - Initial release of the Gruvbox Island Theme.
 - Includes Dark and light theme variant for New UI (Islands).
