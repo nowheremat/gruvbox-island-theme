@@ -78,7 +78,7 @@
       "inactiveBackground": "Neutral_10"
     },
     "DefaultTabs": {
-      "background": "Neutral_20",
+      "background": "Neutral_15",
       "borderColor": "Transparent",
       "underlineColor": "Orange",
       "inactiveUnderlineColor": "LightTint_8",
@@ -87,6 +87,7 @@
       "underlinedTabBackground": "Neutral_30"
     },
     "EditorTabs": {
+      "background": "Neutral_15",
       "borderColor": "Transparent",
       "underlineColor": "Orange",
       "inactiveUnderlineColor": "LightTint_8",
@@ -183,8 +184,8 @@
         "inactiveUnderlineColor": "LightTint_30"
       },
       "Header": {
-        "inactiveBackground": "Neutral_30",
-        "background": "Neutral_30"
+        "inactiveBackground": "Neutral_15",
+        "background": "Neutral_15"
       },
       "Button": {
         "selectedBackground": "Blue_90",
@@ -472,6 +473,7 @@
     "Neutral_40": "#d5c4a1",
     "Neutral_30": "#fbf1c7",
     "Neutral_20": "#fbf1c7",
+    "Neutral_15": "#f2e5bc",
     "Neutral_10": "#ebdbb2",
     "Blue_160": "#076678",
     "Blue_150": "#076678",
