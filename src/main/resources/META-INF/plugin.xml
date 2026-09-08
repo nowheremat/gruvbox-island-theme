@@ -28,6 +28,30 @@
                 targetUi="islands"
         />
 
+        <themeProvider
+                id="com.github.nowheremat.gruvbox.hard.dark.islands"
+                path="themes/gruvbox-dark-hard/gruvbox-dark-hard.json"
+                targetUi="islands"
+        />
+
+        <themeProvider
+                id="com.github.nowheremat.gruvbox.soft.dark.islands"
+                path="themes/gruvbox-dark-soft/gruvbox-dark-soft.json"
+                targetUi="islands"
+        />
+
+        <themeProvider
+                id="com.github.nowheremat.gruvbox.hard.light.islands"
+                path="themes/gruvbox-light-hard/gruvbox-light-hard.json"
+                targetUi="islands"
+        />
+
+        <themeProvider
+                id="com.github.nowheremat.gruvbox.soft.light.islands"
+                path="themes/gruvbox-light-soft/gruvbox-light-soft.json"
+                targetUi="islands"
+        />
+
     </extensions>
 
 </idea-plugin>

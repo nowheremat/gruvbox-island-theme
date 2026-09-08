@@ -6,6 +6,9 @@
 ## [Unreleased]
 
 
+## [2.0.0] - 2026-08-09
+
+- Adds variants to dark and light themes.
 
 ## [0.9.0] - 2026-01-03
 
