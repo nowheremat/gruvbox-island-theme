@@ -78,23 +78,23 @@
       "inactiveBackground": "Neutral_10"
     },
     "DefaultTabs": {
-      "background": "Neutral_15",
-      "borderColor": "Transparent",
+      "background": "Neutral_20",
+      "borderColor": "TabBorder",
       "underlineColor": "Orange",
       "inactiveUnderlineColor": "LightTint_8",
       "hoverBackground": "LightTint_8",
       "underlinedBorderColor": "BlueTint_40",
-      "underlinedTabBackground": "Neutral_30"
+      "underlinedTabBackground": "SelectedTab"
     },
     "EditorTabs": {
-      "background": "Neutral_15",
+      "background": "Neutral_20",
       "borderColor": "Transparent",
       "underlineColor": "Orange",
       "inactiveUnderlineColor": "LightTint_8",
       "hoverBackground": "LightTint_8",
       "underlinedBorderColor": "BlueTint_40",
-      "underTabsBorderColor": "Neutral_30",
-      "underlinedTabBackground": "Neutral_30"
+      "underTabsBorderColor": "TabBorder",
+      "underlinedTabBackground": "SelectedTab"
     },
     "TabbedPane": {
       "underlineColor": "Orange",
@@ -102,7 +102,7 @@
       "hoverColor": "LightTint_8",
       "focusColor": "BlueTint_25",
       "underlinedBorderColor": "BlueTint_40",
-      "underlinedTabBackground": "Neutral_30"
+      "underlinedTabBackground": "SelectedTab"
     },
     "FileColor": {
       "Blue": "Blue_30",
@@ -184,8 +184,9 @@
         "inactiveUnderlineColor": "LightTint_30"
       },
       "Header": {
-        "inactiveBackground": "Neutral_15",
-        "background": "Neutral_15"
+        "inactiveBackground": "Neutral_20",
+        "background": "Neutral_20",
+        "borderColor": "TabBorder"
       },
       "Button": {
         "selectedBackground": "Blue_90",
@@ -475,6 +476,8 @@
     "Neutral_20": "#fbf1c7",
     "Neutral_15": "#f2e5bc",
     "Neutral_10": "#ebdbb2",
+    "SelectedTab": "#ede0b5",
+    "TabBorder": "#cbbb98",
     "Blue_160": "#076678",
     "Blue_150": "#076678",
     "Blue_140": "#458588",
